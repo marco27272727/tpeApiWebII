@@ -4,10 +4,10 @@ _Consumiendo esta api lo que se podra ver de la tabla historial son: los campos 
 
 ## Endpoints
 
-- localhost/tpe_web2/tpe-parte3/api/historial/ (GET)
-- localhost/tpe_web2/tpe-parte3/api/historial/:ID (GET ID)
-- localhost/tpe_web2/tpe-parte3/api/historial/ (POST)
-- localhost/tpe_web2/tpe-parte3/api/historial/:ID (PUT)
+- localhost/tpeApiWeb2/tpe-parte3/api/historial/ (GET)
+- localhost/tpeApiWeb2/tpe-parte3/api/historial/:ID (GET ID)
+- localhost/tpeApiWeb2/tpe-parte3/api/historial/ (POST)
+- localhost/tpeApiWeb2/tpe-parte3/api/historial/:ID (PUT)
 
 ## Servicios GET
 
@@ -16,17 +16,17 @@ _Consumiendo esta api lo que se podra ver de la tabla historial son: los campos 
 _Para poder acceder a todos los registros de la BBDD utilizamos el metodo GET_
 
 ```
-localhost/tpe_web2/tpe-parte3/api/historial/
+localhost/tpeApiWeb2/tpe-parte3/api/historial/
 ```
 
 ### GET BY ID
 
 _Para poder acceder a un registro de la BBDD por ID tambien utilizamos el metodos GET_
 
-- localhost/tpe_web2/tpe-parte3/api/historial/:ID
+- localhost/tpeApiWeb2/tpe-parte3/api/historial/:ID
 
 ```
-localhost/tpe_web2/tpe-parte3/api/historial/1
+localhost/tpeApiWeb2/tpe-parte3/api/historial/1
 ```
 
 ### SORT & ORDER
@@ -43,8 +43,8 @@ SORT:
 - desc
 
 ```
-localhost/tpe_web2/tpe-parte3/api/historial?sort=id&order=asc
-localhost/tpe_web2/tpe-parte3/api/historials?sort=id&order=desc
+localhost/tpeApiWeb2/tpe-parte3/api/historial?sort=id&order=asc
+localhost/tpeApiWeb2/tpe-parte3/api/historial?sort=id&order=desc
 ```
 
 ## Servicio POST (leer autorizacion)
@@ -64,7 +64,7 @@ _Para insertar un registro en la BBDD necesitamos poner nuestro endpoint con el 
 _Para editar un registro en la BBDD necesitamos poner nuestro endpoint con el metodo PUT y saber el ID que vamos a editar (localhost/tpe_web2/tpe-parte3/api/historial/:ID)_
 
 ```
-localhost/tpe_web2/tpe-parte3/api/historial/1
+localhost/tpeApiWeb2/tpe-parte3/api/historial/1
 ```
 
 _y luego debemos completar el siguiente json:_
